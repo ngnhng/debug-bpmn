@@ -1,0 +1,38 @@
+{
+	"name": "custom-meta-model",
+	"version": "0.0.0",
+	"description": "An bpmn-js modeler extended with a custom meta-model",
+	"scripts": {
+		"all": "webpack",
+		"dev": "webpack serve --open"
+	},
+	"keywords": [
+		"bpmnjs-example"
+	],
+	"author": {
+		"name": "Nico Rehwaldt",
+		"url": "https://github.com/nikku"
+	},
+	"contributors": [
+		{
+			"name": "bpmn.io contributors",
+			"url": "https://github.com/bpmn-io"
+		}
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"copy-webpack-plugin": "^12.0.2",
+		"css-loader": "^6.10.0",
+		"raw-loader": "^4.0.2",
+		"style-loader": "^3.3.4",
+		"webpack": "^5.89.0",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^5.0.0"
+	},
+	"dependencies": {
+		"bpmn-js": "^17.0.2",
+		"diagram-js": "^14.0.0",
+		"grunt": "^1.6.1",
+		"jquery": "^3.3.1"
+	}
+}
